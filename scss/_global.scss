@@ -1,0 +1,55 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.2px;
+color: $default;
+background: #FFFFFF;
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+.wrapper {
+ 	display: flex;
+	flex-direction: column;
+ 	min-height: 100%;
+ }
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+  @media (max-width:900px) { 
+    padding: 0 16px;
+    }
+}
+
+.small__container {
+	max-width: 1062px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+
